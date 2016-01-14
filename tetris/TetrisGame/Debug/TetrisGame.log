@@ -1,0 +1,24 @@
+﻿빌드 시작: 2016-01-14 오후 1:18:36
+     1>2 노드의 "C:\Users\BoWoon\Documents\GitHub\Tetris\tetris\TetrisGame\TetrisGame.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\pdc34dll /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt block.cpp gameplay.cpp Interface.cpp key.cpp main.cpp
+         main.cpp
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\main.cpp(1): warning C4005: 'UNICODE' : 매크로 재정의
+                 명령줄 인수 :  'UNICODE'의 이전 정의를 참조하십시오.
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\main.cpp(2): warning C4005: '_UNICODE' : 매크로 재정의
+                 명령줄 인수 :  '_UNICODE'의 이전 정의를 참조하십시오.
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\main.cpp(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory
+         key.cpp
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\key.h(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory
+         Interface.cpp
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\interface.h(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory
+         gameplay.cpp
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\interface.h(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory
+         block.cpp
+     1>c:\users\bowoon\documents\github\tetris\tetris\tetrisgame\interface.h(9): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory
+         코드를 생성하고 있습니다...
+     1>"C:\Users\BoWoon\Documents\GitHub\Tetris\tetris\TetrisGame\TetrisGame.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.49
