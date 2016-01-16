@@ -1,6 +1,8 @@
 # Tetris
 C++ Tetris Games
 
+![GitHub Logo](https://github.com/KimBoWoon/Tetris/blob/master/tetris/tetris/main.jpg)
+
 # PDCurses library
 아래의 페이지에서 `pdc34dll.zip`를 다운로드<br>
 http://sourceforge.net/projects/pdcurses/files/pdcurses/3.4/
